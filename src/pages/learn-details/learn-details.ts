@@ -56,8 +56,8 @@ export class LearnDetailsPage {
 
   delete(questionId){
     let confirm = this.alertCtrl.create({
-      title: 'Delete question',
-      message: 'Are you sure you want to delete this question?',
+      title: 'Eliminar pregunta',
+      message: 'Estás seguro que deseas eliminar esta pregunta?',
       buttons: [
         {
           text: 'No',
@@ -66,7 +66,7 @@ export class LearnDetailsPage {
           }
         },
         {
-          text: 'Yes',
+          text: 'Si',
           handler: () => {
             this.questionService.deleteQuestion(questionId)
             .then(res => this.getQuestions());

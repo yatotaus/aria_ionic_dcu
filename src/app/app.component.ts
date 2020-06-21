@@ -4,6 +4,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { LearnFeedPage } from '../pages/learn-feed/learn-feed';
+import { ContactoPage } from '../pages/learn-feed/contacto';
 
 @Component({
   selector: 'app-root',
@@ -33,22 +34,22 @@ export class MyApp {
 
     this.pages = [
       {
-        title: 'All',
+        title: 'Todo',
         component: LearnFeedPage,
         params: {
-          query: 'all'
+          query: 'todos'
         }
       },
       {
-        title: 'Basic',
+        title: 'Galeria',
         component: LearnFeedPage,
         params: {
           query: 'basic'
         }
       },
       {
-        title: 'Core',
-        component: LearnFeedPage,
+        title: 'Contacto',
+        component: ContactoPage,
         params: {
           query: 'core'
         }

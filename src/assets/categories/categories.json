@@ -1,61 +1,67 @@
 {
   "categories": [
     {
-      "slug": "IONIC-3",
-      "title": "Ionic 3",
-      "description": "Ask about Ionic 3",
+      "slug": "Hotelería",
+      "title": "Hotelería",
+      "description": "Pregunta aquí sobre hotelería",
       "background": "#0077ff",
       "tags": [
         {
-          "name": "Ionic3"
+          "name": "Hostel"
         },
         {
-          "name": "Angular4"
+          "name": "Depto"
         },
         {
-          "name": "Typescript"
+          "name": "Luxury"
         }
       ]
     },
     {
-      "slug": "ANGULAR-4",
-      "title": "Angular 4",
-      "description": "Ask about Angular 4",
+      "slug": "Gastronomía",
+      "title": "Gastronomía",
+      "description": "Pregunta aquí sobre gastronomía",
       "background": "#F84C61",
       "tags":[
         {
-          "name": "Typescript"
+          "name": "Restaurantes"
         },
         {
-          "name": "Angular4"
+          "name": "Veggie"
+        },
+        {
+          "name": "Comida rápida"
         }
       ]
     },
     {
-      "slug": "IONIC-NATIVE",
-      "title": "Ionic Native",
-      "description": "Ask about Ionic Native",
+      "slug": "Actividades",
+      "title": "Actividades recreativas",
+      "description": "Pregunta aquí sobre actividades",
       "background": "#16144A",
       "tags": [
         {
-            "name": "Ionic3"
+            "name": "Aventura"
         },
         {
-            "name": "Plugins"
+            "name": "Gratuitas"
+        },
+        {
+            "name": "Espectáculos"
         }
       ]
     },
     {
-      "slug": "IONIC-CLI",
-      "title": "Ionic CLI",
-      "description": "Ask about Ionic CLI",
+      "slug": "Museos",
+      "title": "Museos e historia",
+      "description": "Pregunta aquí sobre museos",
       "background": "#432B9C",
       "tags": [
         {
-            "name": "Ionic3"
+            "name": "Arte"
         },
         {
-            "name": "CLI"
+            "name": "Ciencia"
         }
       ]
     }

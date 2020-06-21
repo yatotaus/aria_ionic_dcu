@@ -4,7 +4,7 @@
       <ion-icon name="menu"></ion-icon>
     </button>
     <ion-title>
-      <span>Question details</span>
+      <span>Detalles de la pregunta</span>
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -17,13 +17,13 @@
       </ion-col>
       <ion-col no-padding col-12>
         <p class="vote-call-to-action">
-          Was this question usefull? Rate it!
+          ¿Fue útil la pregunta?
         </p>
         <ion-row class="question-actions-row">
           <ion-col no-padding col-4>
             <button class="question-action-button up-vote" ion-button icon-left round block small color="dark" (click)= "upVoteQuestion()">
               <ion-icon name="arrow-up"></ion-icon>
-              <div>Up-vote</div>
+              <div>Vota + aquí</div>
             </button>
           </ion-col>
           <ion-col no-padding col-3 class="score-col">
@@ -37,7 +37,7 @@
           <ion-col no-padding col-4>
             <button class="question-action-button down-vote" ion-button icon-left round block small color="dark" (click)= "downVoteQuestion()">
               <ion-icon name="arrow-down"></ion-icon>
-              <div>Down-vote</div>
+              <div>Vota - aquí</div>
             </button>
           </ion-col>
         </ion-row>
@@ -47,15 +47,15 @@
 
   <div *ngIf="answers.length == 0">
     <h3 class="answers-call-out">
-      There are no answers to this question. Be the first one to answer!
+      Aún no hay respuestas para la pregunta. Se el primero en responder!
     </h3>
   </div>
 
   <div *ngIf="answers.length > 0">
     <h3 class="answers-call-out">
-      <span class="call-out-explanation">We found </span>
+      <span class="call-out-explanation">Hemos encontrado </span>
       <ion-badge class="call-out-tag">{{ answers.length }}</ion-badge>
-      <span> Answers for this question!</span>
+      <span> respuestas para esta pregunta!</span>
     </h3>
 
     <ion-list class="answers-list">
@@ -78,7 +78,7 @@
               <ion-col col-4 class="votes-details">
                 <div class="details-wrapper">
                   <span class="total-votes">{{ answer.positiveVotes + answer.negativeVotes }}</span>
-                  <span class="details-text">Votes</span>
+                  <span class="details-text">Votos</span>
                 </div>
               </ion-col>
               <ion-col col-4 class="actions-details">
@@ -100,7 +100,7 @@
 <ion-footer>
   <ion-toolbar>
     <button ion-button block (click)="createAnswerModal()" color="answer">
-      <b>Know the Answer? Don't be shy!</b>
+      ¿Sabés la respuesta? Compartíla aquí
     </button>
   </ion-toolbar>
 </ion-footer>
