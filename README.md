@@ -1,8 +1,3 @@
-**Please support this project by simply putting a Github star ⭐. Share this library with friends on Twitter and everywhere else you can. 🙏**
-
-Check the complete step by step tutorial in: https://ionicthemes.com/tutorials/about/building-a-complete-mobile-app-with-ionic-3
-
-
 ## Installation
 
 Install  dependencies
